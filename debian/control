@@ -1,0 +1,12 @@
+Source: osso-applet-devicelock
+Priority: optional
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
+Build-Depends: debhelper (>= 5), libgtk2.0-dev, libhildon1-dev, libhildondesktop1-dev, hildon-control-panel-dev, libgconf2-dev, libcodelockui1-dev, libdevlock-dev
+Standards-Version: 3.7.2
+Section: libs
+
+Package: osso-applet-devicelock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, hildon-control-panel (>= 1:2.2.1), osso-icons | osso-icons-devel, osso-system-lock-l10n-mr0 | osso-system-lock-l10n-mr
+Description: Control Panel Device Lock plugin
+ Device Lock plugin for Control Panel.

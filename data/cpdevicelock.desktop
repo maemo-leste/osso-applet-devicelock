@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=secu_security_dialog_title
+Comment=Manage the security.
+Type=HildonControlPanelPlugin
+Icon=general_locked
+X-Text-Domain=osso-system-lock
+X-control-panel-plugin=libcpdevicelock.so
+Categories=general
