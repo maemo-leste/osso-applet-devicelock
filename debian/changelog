@@ -1,3 +1,9 @@
+osso-applet-devicelock (1.5.2-1) unstable; urgency=medium
+
+  * Remove schemas/* from debian/install
+
+ -- Ivan J. <parazyd@dyne.org>  Sun, 28 Jan 2018 11:10:00 +0100
+
 osso-applet-devicelock (1.5.1-1) unstable; urgency=medium
 
   * move security.schemas to mce [freemangordon]
