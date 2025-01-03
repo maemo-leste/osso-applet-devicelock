@@ -1,3 +1,9 @@
+osso-applet-devicelock (1.5.3-1) unstable; urgency=medium
+
+  * Migrate to dh 10+
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 03 Jan 2025 11:59:43 +0100
+
 osso-applet-devicelock (1.5.2-1) unstable; urgency=medium
 
   * Remove schemas/* from debian/install
