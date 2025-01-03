@@ -17,4 +17,4 @@ $(LIB):$(OBJS)
 .PHONE: clean all
 
 clean:
-	rm $(OBJS)
+	rm -f $(OBJS)
